@@ -9,3 +9,242 @@
         .text2-custom-orange {
             color: #F67C01 ! important;
         }
+
+        .about .container {
+            max-width: 1079px;
+        }
+
+        .contact.container {
+            max-width: 1079px;
+        }
+
+        .trainingsection.container {
+            max-width: 900px !important;
+        }
+
+        .emergents.container {
+            max-width: 1610px;
+            max-height: 360px;
+        }
+
+        .contact .container {
+            max-width: 1079px;
+
+        }
+
+        .first_card {
+            border-radius: 10px;
+        }
+
+        .first_card.shadow {
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05) !important;
+
+        }
+
+        .second_card .shadow {
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05) !important;
+        }
+
+
+        /* contact us */
+
+        .location .map {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .location .map iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+
+
+        /* index_page */
+
+
+
+
+
+
+
+        .first_card h3 {
+            font-family: myFont1;
+            font-size: 21px;
+            color: black;
+
+        }
+
+        .first_card p {
+            font-family: myFont;
+            font-size: 17px;
+            color: #777777;
+
+        }
+
+        .trainingsection h3 {
+            font-family: myFont2;
+            font-size: 43px;
+        }
+
+        .trainingsection p {
+            font-family: myFont;
+            font-size: 17px;
+            color: #777777;
+        }
+
+        .card .card-body {
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+            padding-top: 0px !important;
+        }
+
+        .modulebtn {
+            width: 100px;
+            height: 30px;
+            color: #ffffff;
+            background-color: #05A93D;
+        }
+
+        .card .card-title {
+            padding-top: 16px;
+            text-align: left;
+
+        }
+
+        .card-body p {
+            text-align: left;
+            font-family: myFont;
+            font-size: 15px;
+            color: #777777;
+        }
+
+        .card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 0px solid rgba(0, 0, 0, 0) !important;
+            border-radius: 10px !important;
+        }
+
+        .card_button {
+            text-align: left;
+            font-family: myFont1;
+            color: #05A93D;
+            font-size: 17px;
+
+        }
+
+        .about h2 {
+            font-family: myFont2;
+            font-size: 43px;
+            color: #05A93D;
+        }
+
+        .about p {
+            font-family: myFont;
+            font-size: 16px;
+            color: #777777;
+        }
+
+        .contact h2 {
+            font-family: myFont2;
+            font-size: 43px;
+            padding-bottom: 10px;
+
+        }
+
+        .details {
+            font-family: myFont3;
+            font-size: 16px;
+            color: #898989;
+        }
+
+
+
+        /* About_style */
+
+
+
+
+        .emergents_second.container {
+            max-width: 1200px;
+
+
+        }
+
+
+        .content-second-page p {
+            font-family: myfont;
+            font-size: 16px;
+            color: #777777;
+        }
+
+        .second_card h3 {
+            font-family: myFont1;
+            font-size: 18px;
+
+        }
+
+        .card-text {
+            font-family: myfont;
+            font-size: 13px;
+            color: #777777;
+
+        }
+
+
+
+
+
+
+
+
+        /* module1 */
+          .othercards.body-card {
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+            padding-top: 0px !important;
+        }
+
+
+        .modulehead {
+            width: 100px;
+            height: 30px;
+            color: #ffffff;
+            background-color: #05A93D;
+        }
+    
+
+        @font-face {
+            font-family: myFont;
+            src: url(/myFont/Gilroy-Medium.ttf);
+        }
+
+        @font-face {
+            font-family: myFont1;
+            src: url(/myFont/Gilroy-SemiBold.ttf);
+        }
+
+        @font-face {
+            font-family: myFont2;
+            src: url(/myFont/Gilroy-Bold.ttf);
+        }
+
+        @font-face {
+            font-family: myFont3;
+            src: url(/myFont/Roboto-Regular.ttf);
+        }

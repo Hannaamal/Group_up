@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ground Up</title>
     <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -54,7 +55,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="/pages/about.html">About</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -62,7 +63,8 @@
                             Training
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Module 1 - Bridging the Triad of Therapist, Client and
+                            <li><a class="dropdown-item" href="/pages/module_1.html">Module 1 - Bridging the Triad of
+                                    Therapist, Client and
                                     Medicine</a></li>
                             <li><a class="dropdown-item" href="#">Module 2 - Bridging the Triad of Therapist, Client and
                                     Medicine</a></li>
@@ -71,7 +73,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="pages/contact_us.html">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -84,21 +86,21 @@
             <div class="col-md-6 d-flex bg-transparent"></div>
             <div class="col-md-6 d-flex align-items-center bg-transparent text-black">
                 <div class="p-4">
-                    <h1 class="fw-bold">
-                        <span class="text-custom-green">Ground up</span><br>
+                    <h1 class="fw-bold" style="font-family: myFont2;font-size: 61px;">
+                        <span class="text-custom-green ">Ground up</span><br>
                         <span class="text2-custom-orange">Psychedelic Institute.</span>
                     </h1>
-                    <p>
+                    <p style="font-family: myFont; color: #4a4949; font-size: 16px;">
                         Ground up Psychedelic Institute supports Mental Health practitioners to reorient their
                         Psychotherapeutic approach to support their clients Bottom up (felt lead) processing, which is
                         activated whilst participating in Psychedelic Medicine experiences.
                     </p>
-                    <p>
+                    <p style="font-family: myFont; color: #4a4949; font-size: 16px;">
                         Psychedelic Medicine experiences are emergent, intra-relational, felt and here-and-now
                         encounters. We help therapists link emergent, intra-relational, felt lead, and here and now
                         approaches to Psychedelic Assisted Psychotherapy.
                     </p>
-                    <button type="Read More" class=" d-flex flex-row btn btn-success rounded-pill px-4 gap-2">Read More
+                    <button type="Read More" class=" d-flex flex-row btn btn-success rounded-pill px-4 gap-2" style="font-family: myfont1; font-size: 16px;">Read More
                         <img src="/images/readmore.svg">
                     </button>
                 </div>
@@ -106,103 +108,118 @@
         </div>
     </section>
 
-    <section class="container py-5">
-        <div class=" py-10 d-flex  col flex justify-content-between flex-wrap">
+    <section class="emergents py-5">
+        <div class="  container py-10 d-flex  col flex justify-content-between flex-wrap">
 
-            <div class=" card col-md-6 col-12 shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+            <div class=" first_card col-md-6 col-12 shadow p-3 mb-5 bg-body rounded" style="width:310px; height:340px;">
                 <div class="image" style="width: 100px;height: 90px;">
-                    <img src="/images/emergrant1.svg" class="card-img-top" alt="...">
+                    <img src="/images/emergrant1.svg" class="card-img-top"style="width: 86px; height: 86px;">
                 </div>
                 <div class="card-body  gap-10">
                     <h3>Emergent</h3>
-                    <p class="card-text">Emergent- arising within the broader whole of existence ;An interplay from which ones experience organically emerges.This is quite opposite to a reduction into
+                    <p class="card-text">Emergent- arising within the broader whole of existence ;An interplay from
+                        which ones experience organically emerges.This is quite opposite to a reduction into
                     </p>
                 </div>
             </div>
-            <div class=" card col-md-6 col-12 shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+            <div class=" first_card col-md-6 col-12 shadow p-3 mb-5 bg-body rounded" style="width:310px; height:340px;">
                 <div class="image" style="width: 100px;height: 90px;">
-                    <img src="/images/intra-relation2.svg" class="card-img-top" alt="...">
+                    <img src="/images/intra-relation2.svg" class="card-img-top" style="width: 86px; height: 86px;">
                 </div>
                 <div class="card-body">
                     <h3>Intra-relational</h3>
-                    <p class="card-text">Intra-relational- a process of relating dynamically and internally with alive aspects of ourselves.</p>
+                    <p class="card-text">Intra-relational- a process of relating dynamically and internally with alive
+                        aspects of ourselves.</p>
                 </div>
             </div>
 
-            <div class="card col-lg-3 col-md-6 col-12 shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+            <div class="first_card col-lg-3 col-md-6 col-12 shadow p-3 mb-5 bg-body rounded" style="width:310px;height:340px;">
                 <div class="image" style="width: 100px;height: 90px;">
-                    <img src="/images/felt3.svg" class="card-img-top" alt="...">
+                    <img src="/images/felt3.svg" class="card-img-top" style="width: 86px; height: 86px;">
                 </div>
                 <div class="card-body">
                     <h3>Felt</h3>
-                    <p class="card-text">Felt – Visceral and somatic information becomes infinitely more accessible and interpretable.The experience is every aspect is sensation lead.</p>
+                    <p class="card-text">Felt – Visceral and somatic information becomes infinitely more accessible and
+                        interpretable.The experience is every aspect is sensation lead.</p>
                 </div>
             </div>
-            <div class="card col-lg-3 col-md-6 col-12 shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+            <div class="first_card col-lg-3 col-md-6 col-12 shadow p-3 mb-5 bg-body rounded" style="width:310px;height:340px;">
                 <div class="image" style="width: 100px;height: 90px;">
-                    <img src="/images/here and now4.svg" class="card-img-top" alt="...">
+                    <img src="/images/here and now4.svg" class="card-img-top" style="width: 86px; height: 86px;">
                 </div>
                 <div class="card-body">
                     <h3>Here and now </h3>
-                    <p class="card-text">Here and now - present. A deeper capacity to be in and with what is happening now,primarily; again via sensation lead information.
+                    <p class="card-text">Here and now - present. A deeper capacity to be in and with what is happening
+                        now,primarily; again via sensation lead information.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-5- section- bg-light">
-        <div class="container text-center">
+    <section class=" trainingsection " style="background-color: #EFFAF6;">
+        <div class="container text-center py-5" style="max-width: 1200px;">
             <h2 class="fw-bold mb-3">Trainings</h2>
             <p class="mb-5">This training is for Mental Health practitioners interested in the field of PAP and well as
                 practitioners who are already working in the field looking to develop their skills and orientation in
                 PAP.</p>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm">
-                        <img src="/images/module 1.png" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h3> Module1</h3>
-                            <h5 class="card-title">Bridging the Triad of Therapist, Client and Medicine</h5>
-                            <p class="card-text">Supports therapist to guide clients deeply into their felt experience,
-                                both in Psychotherapy and Non ordinary experiences, as the pathway to deeper, more
-                                fundamental insights and subsequent change.</p>
-                            <div>
-                                <a href="#" class="text-decoration-none link-success">Read More</a>
-                                <img src="/images/readmore.svg">
-                            </div>
+            <div class=" module_cards py-5">
+                <div class="row g-4">
+                    <div class="col-md-4 col-12">
+                        <div class="card h-100 shadow-sm"style="width: 380px; height: 518px;">
+                            <img src="/images/module 1.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="modulebtn p-1">
+                                    Module 1
+                                </div>
+                                <h5 class="card-title">Bridging the Triad of Therapist, Client and Medicine</h5>
+                                <p class="card-text">Supports therapist to guide clients deeply into their felt
+                                    experience,
+                                    both in Psychotherapy and Non ordinary experiences, as the pathway to deeper, more
+                                    fundamental insights and subsequent change.</p>
+                                <div class="card_button">
+                                    <a href="#" class="text-decoration-none link-success">Read More</a>
+                                    <img src="/images/readmore.svg">
+                                </div>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm">
-                        <img src="/images/module2.png" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h3> Module2</h3>
-                            <h5 class="card-title">Bridging the Triad of Therapist, Client and Medicine</h5>
-                            <p class="card-text">Supports therapist to guide clients deeply into their felt experience,
-                                both in Psychotherapy and Non ordinary experiences, as the pathway to deeper, more
-                                fundamental insights and subsequent change.</p>
-                            <div>
-                                <a href="#" class="text-decoration-none link-success" style="">Read More</a>
-                                <img src="/images/readmore.svg">
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm">
-                        <img src="/images/module3.png" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h3> Module3</h3>
-                            <h5 class="card-title">Bridging the Triad of Therapist, Client and Medicine</h5>
-                            <p class="card-text">Supports therapist to guide clients deeply into their felt experience,
-                                both in Psychotherapy and Non ordinary experiences, as the pathway to deeper, more
-                                fundamental insights and subsequent change.</p>
-                            <div>
-                                <a href="#" class="text-decoration-none link-success">Read More</a>
-                                <img src="/images/readmore.svg">
+                    <div class="col-md-4 col-12">
+                        <div class="card h-100 shadow-sm"style="width: 380px; height: 518px;">
+                            <img src="/images/module2.png" class="card-img-top">
+                            <div class="card-body">
+                                <div class="modulebtn p-1">
+                                    Module 2
+                                </div>
+                                <h5 class="card-title">Bridging the Triad of Therapist, Client and Medicine</h5>
+                                <p class="card-text">Supports therapist to guide clients deeply into their felt
+                                    experience,
+                                    both in Psychotherapy and Non ordinary experiences, as the pathway to deeper, more
+                                    fundamental insights and subsequent change.</p>
+                                <div class="card_button">
+                                    <a href="#" class="text-decoration-none link-success" >Read More</a>
+                                    <img src="/images/readmore.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="card h-100 shadow-sm" style="width: 380px; height: 518px;">
+                            <img src="/images/module3.png" class="card-img-top">
+                            <div class="card-body">
+                                <div class="modulebtn p-1">
+                                    Module 3
+                                </div>
+                                <h5 class="card-title">Bridging the Triad of Therapist, Client and Medicine</h5>
+                                <p class="card-text">Supports therapist to guide clients deeply into their felt
+                                    experience,
+                                    both in Psychotherapy and Non ordinary experiences, as the pathway to deeper, more
+                                    fundamental insights and subsequent change.</p>
+                                <div class="card_button">
+                                    <a href="#" class="text-decoration-none link-success">Read More</a>
+                                    <img src="/images/readmore.svg">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -211,7 +228,7 @@
         </div>
     </section>
 
-    <section class="py-5">
+    <section class=" about py-5">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-5 text-center">
@@ -234,10 +251,10 @@
         </div>
     </section>
 
-    <section class="py-5" style="background-color:#F2FBF8;">
+    <section class=" contact py-5" style="background-color:#F2FBF8;">
         <div class="container">
             <h2 class="fw-bold mb-4">Contact Us</h2>
-            <form>
+            <form class="details">
                 <div class="row mb-3">
                     <div class="col-md-6">
                         <label for="firstName" class="form-label">First Name*</label>
@@ -270,7 +287,7 @@
                         id="message" rows="4"></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-warning rounded-pill px-4 gap-2">Submit
+                <button type="submit" class="btn btn-warning rounded-pill px-4 gap-2 text-light">Submit
                     <img src="/images/readmore.svg">
                 </button>
             </form>
@@ -286,10 +303,11 @@
 
             <!-- Menu links -->
             <ul class="nav justify-content-center mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-3 text-white">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-3 text-white">About Us</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-3 text-white">Trainings</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-3 text-white">Contact Us</a></li>
+                <li class="nav-item"><a href="/index.html" class="nav-link px-3 text-white">Home</a></li>
+                <li class="nav-item"><a href="/pages/about.html" class="nav-link px-3 text-white">About Us</a></li>
+                <li class="nav-item"><a href="/pages/module_1.html" class="nav-link px-3 text-white">Trainings</a></li>
+                <li class="nav-item"><a href="/pages/contact_us.html" class="nav-link px-3 text-white">Contact Us</a>
+                </li>
             </ul>
 
             <!-- Social icons -->
