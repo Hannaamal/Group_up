@@ -1,3 +1,7 @@
+        body {
+            font-family: myFont !important;
+        }
+
         .bg-custom-green {
             background-color: #05A93D !important;
         }
@@ -10,70 +14,45 @@
             color: #F67C01 ! important;
         }
 
-        .about .container {
-            max-width: 1079px;
+
+       .navbar-light .navbar-nav .nav-link {
+        color: rgb(0 0 0) !important;
+       }
+
+
+
+        .navbar-nav .nav-item .nav-link.active{
+
+            color: #05A93D !important;
+    
         }
 
-        .contact.container {
-            max-width: 1079px;
+        hr{
+            border-color: #ffffff;
         }
-
-        .trainingsection.container {
-            max-width: 900px !important;
-        }
-
-        .emergents.container {
-            max-width: 1610px;
-            max-height: 360px;
-        }
-
-        .contact .container {
-            max-width: 1079px;
-
-        }
-
-        .first_card {
-            border-radius: 10px;
-        }
-
-        .first_card.shadow {
-            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05) !important;
-
-        }
-
-        .second_card .shadow {
-            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05) !important;
-        }
-
-
-        /* contact us */
-
-        .location .map {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-        }
-
-        .location .map iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-        }
-
 
 
         /* index_page */
 
 
 
+        .introduction {
+            background: url('/images/backgroung.png') center/cover no-repeat;
+            height: 416px;
+        }
+
+        .introduction  p{
+            color: #777;
+        }
+
+
+        .first_card .image {
+            width: 86px;
+            height: 86px;
 
 
 
+        }
 
         .first_card h3 {
             font-family: myFont1;
@@ -92,6 +71,11 @@
         .trainingsection h3 {
             font-family: myFont2;
             font-size: 43px;
+        }
+
+        .trainingsection h5 {
+            font-family: myFont1;
+            font-size: 18px;
         }
 
         .trainingsection p {
@@ -127,6 +111,29 @@
             color: #777777;
         }
 
+        
+        .about .container {
+            max-width: 1079px;
+        }
+
+        .contact .container {
+            max-width: 1079px !important;
+        }
+
+        .first_card {
+            border-radius: 10px;
+        }
+
+        .first_card .shadow {
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05) !important;
+
+        }
+
+        .second_card .shadow {
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05) !important;
+        }
+
+
         .card {
             position: relative;
             display: flex;
@@ -145,6 +152,10 @@
             color: #05A93D;
             font-size: 17px;
 
+        }
+
+        .trainingsection {
+            background-color: #EFFAF6;
         }
 
         .about h2 {
@@ -166,46 +177,88 @@
 
         }
 
+        .contact {
+            background-color: #F2FBF8;
+        }
+
         .details {
             font-family: myFont3;
             font-size: 16px;
             color: #898989;
         }
 
+        .details.first_name {
+            background-color: #F2FBF8;
 
+        }
+
+        .responsive-heading {
+            font-family: myFont2;
+            font-size: 48px;
+        }
+
+       
 
         /* About_style */
 
 
-
-
-        .emergents_second.container {
-            max-width: 1200px;
+        .emergents_second .container {
+            max-width: 1200px !important;
+            max-height: 1380px !important;
 
 
         }
 
+        .contentsecond .container {
+            max-width: 1200px !important;
+            max-height: 1387px !important;
+        }
 
-        .content-second-page p {
+        .contentsecond p {
             font-family: myfont;
             font-size: 16px;
             color: #777777;
         }
 
-        .second_card h3 {
-            font-family: myFont1;
-            font-size: 18px;
 
+
+
+        .emergents_second .second_card {
+            width: 283px;
+            height: 250px;
         }
 
-        .card-text {
+        .emergents_second img {
+            width: 54.1px !important;
+            height: 54.1px !important;
+            padding-left: 10px !important;
+        }
+
+        .emergents_second h3 {
+            font-family: myfont1;
+            font-size: 18px;
+        }
+
+        .emergents_second p {
             font-family: myfont;
             font-size: 13px;
-            color: #777777;
-
+            color: #777;
         }
 
 
+        .paragraph1 .container {
+            max-width: 1200px;
+            max-height: 1380px;
+        }
+
+        .paragraph1 p {
+            color: #777777;
+        }
+
+        .paragraph1 h4 {
+            font-family: myFont1;
+            color: #000;
+        }
 
 
 
@@ -213,7 +266,116 @@
 
 
         /* module1 */
-          .othercards.body-card {
+
+        /* .contact-module .py-5 {
+            padding-top: 0rem !important;
+            padding-bottom: 0rem !important;
+        }
+        
+
+        .description .py-5 {
+            padding-top: 0rem !important;
+            padding-bottom: 0rem !important;
+        }
+         */
+        .content-module .container {
+            max-width: 1200px;
+            max-height: 2808px;
+            background: url('/images/module_bg.png') center/cover no-repeat;
+            height: 400px;
+        }
+
+        .description .mod {
+            width: 100px;
+            height: 30px;
+            color: #ffffff;
+            background-color: #05A93D;
+            text-align: center;
+
+        }
+
+        .description .container {
+            max-width: 1200px !important;
+            max-height: 2808px;
+            padding-left: 0% !important;
+            padding-right: 0px !important;
+        }
+
+        .description h3 {
+            padding-top: 20px;
+            font-family: myFont1;
+            font-size: 36px;
+        }
+
+        .description .paragraph {
+            font-size: 15px;
+            color: #777777;
+        }
+
+
+
+
+        .description2 .container {
+            max-width: 1200px !important;
+            max-height: 2808px;
+            padding-right: 0%;
+            padding-left: 0%;
+        }
+
+        .description2 .card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgb(202, 218, 212) !important;
+            border-radius: 10px !important;
+            margin-bottom: 20px
+        }
+
+        .description2 h5 {
+            font-family: myFont1;
+            font-size: 23px;
+
+        }
+
+        .description2 p {
+            font-family: myFont;
+            font-size: 18px;
+            color: #555555;
+        }
+
+        .description2 ul {
+            font-family: myFont;
+            font-size: 15px;
+            color: #555555;
+        }
+
+
+
+
+        .othercards {
+            background-color: #EFFAF6;
+        }
+
+        .othercards .container {
+            max-width: 1200px !important;
+            box-sizing: border-box;
+        }
+
+        .othercards .modcard {
+            max-width: 580px !important;
+            max-height: 525px !important;
+        }
+
+        .othercards .card-img-top {
+            max-width: 580px;
+            max-height: 342px;
+        }
+
+        .othercards .body-card {
             padding-left: 30px;
             padding-right: 30px;
             padding-bottom: 30px;
@@ -221,13 +383,88 @@
         }
 
 
-        .modulehead {
+        .othercards .modulehead {
             width: 100px;
             height: 30px;
             color: #ffffff;
             background-color: #05A93D;
+            text-align: center;
         }
-    
+
+        .othercards .card-title {
+            font-family: myFont1;
+            font-size: 25px;
+        }
+
+
+
+
+        /* contact us */
+
+
+
+        .contact-content {
+            background: url('/images/about_bg.png') center/cover no-repeat;
+            height: 400px;
+            padding-bottom: 30px;
+        }
+
+        .information .container {
+            max-width: 1191px;
+            gap: 168px;
+        }
+
+        .information .details {
+            /* max-width: 353px;
+        max-height: 293px; */
+            align-items: center;
+            color: #777;
+        }
+
+        .information .filling {
+            /* max-width: 670px;
+        max-height: 445px; */
+            align-items: center;
+            color: #777;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .information .details h5 {
+            color: #000;
+            font-family: myFont2;
+            font-size: 25px;
+        }
+
+        .information .details p {
+            font-size: 15px;
+        }
+
+        .information .details .list-unstyled {
+            font-size: 15px;
+
+        }
+
+        .map-container {
+            position: relative;
+            width: 100%;
+            height: 432px;
+        }
+
+        .map-container {
+            position: relative;
+            width: 100%;
+            height: 434px;
+        }
+
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 434px;
+            border: 0;
+        }
 
         @font-face {
             font-family: myFont;
@@ -248,3 +485,46 @@
             font-family: myFont3;
             src: url(/myFont/Roboto-Regular.ttf);
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+         /* @media (max-width: 992px) {
+            .responsive-heading {
+                font-size: 38px;
+            }
+
+            .responsive-para {
+                font-size: 15px;
+            }
+
+            .responsive-btn {
+                font-size: 15px;
+                padding: 8px 20px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .responsive-heading {
+                font-size: 28px;
+                line-height: 1.3;
+            }
+
+            .responsive-para {
+                font-size: 14px;
+            }
+
+            .responsive-btn {
+                font-size: 14px;
+                padding: 6px 16px;
+            }
+        } */
